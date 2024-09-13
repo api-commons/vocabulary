@@ -1,0 +1,44 @@
+---
+"$id": https://github.com/api-commons/use-cases/blob/main/use-case-schema.yml
+"$schema": https://json-schema.org/draft/2020-12/schema
+title: Use Case
+type: object
+properties:
+  name:
+    type: string
+    description: The name of the word or phrase that is part of vocabulary.
+  definition:
+    type: string
+    description: A short definition of what a word or phrase means.
+  notes:
+    description: Extra notes about the word that help define the context.
+    type: string
+  related:
+    description: Any related words that are used, but should be transformed.
+    type: array
+    items:
+      type: string   
+  children:
+    description: Any words or phrases that are children underneath this word or phrase.
+    type: array
+    items:
+      type: string         
+  singular:
+    description: What the singular representation of the word or phrase is.
+    type: string
+  plural:
+    description: What the plural representation of the word or phrase is.
+    type: string
+  noun:
+    description: Is the word a noun, describing a person, place, or thing.
+    type: boolean
+  verb:
+    description: Is the word a verb, providing some sort of action.
+    type: boolean
+  path:
+    description: Can the word or phrase be used as part of the API path.
+    type: boolean  
+  use:
+    description: Should this word or phrase be used or not used.
+    type: boolean               
+    

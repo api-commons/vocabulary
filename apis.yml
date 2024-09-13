@@ -1,0 +1,21 @@
+aid: vocabularies
+name: Use Cases
+type: Common
+description: |-
+  This is a schema to help manage the vocabulary in use across an API, or domain of APIs, helping standardize the words we use.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Use Cases
+- Business
+created: '2024-09-13'
+modified: '2024-09-13'
+url: https://github.com/api-commons/vocabularies/blob/main/apis.yml
+specificationVersion: '0.18'
+common:
+- type: JSONSchema
+  url: https://github.com/api-commons/vocabularies/blob/main/vocabularies-schema.yml
+- type: Example
+  url: https://github.com/api-commons/vocabularies/blob/main/vocabularies-example.yml  
+maintainers:
+- FN: API Commons
+  email: info@apievangelist.com

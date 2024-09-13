@@ -1,0 +1,16 @@
+name: APIs
+definition: An application programming interface, which is often shortened to just API.
+notes: A pretty top-level and ubiquitous term that regularly gets applied across operations.
+related:
+  - Application Programming Interface
+  - Application Programming Interfaces
+  - API
+children:
+  - REST APIs
+  - Hypermedia APIs
+singular: API
+plural: APIs
+noun: true
+verb: false
+path: true
+use: true
